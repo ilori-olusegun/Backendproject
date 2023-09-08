@@ -23,7 +23,7 @@ def get_info():
         "current_day": current_day,
         "utc_time": utc_time,
         "track": Backend,
-        "github_file_url": "https://github.com/ilori-olusegun/Backendproject/blob/main/app.pys",
+        "github_file_url": "https://github.com/ilori-olusegun/Backendproject/edit/main/app.py",
         "github_repo_url": "https://github.com/ilori-olusegun/Backendproject.git",
         "status_code": 200 if utc_time_valid else 400  # Return 400 if UTC time is not valid
     }
