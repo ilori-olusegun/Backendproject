@@ -13,7 +13,7 @@ def get_info():
     current_day = datetime.datetime.utcnow().strftime('%A')
 
     # Get current UTC time
-    utc_time = datetime.datetime.utcnow().isoformat() + 'Z'
+    utc_time = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
 
     # GitHub URLs
     github_file_url = "https://github.com/ilori-olusegun/Backendproject/blob/main/app.py"
